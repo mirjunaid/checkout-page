@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>checkout page</title>
+	</head>
+	<body>
+		<div class="heading">
+            <h1>Checkout</h1>
+        </div>
+        <div class="productinfo">
+            <div class="product1">
+                <img class="bag" src="https://desafree.github.io/devChallenge-checkout/checkout-page-master/photo1.png">
+                <h4 class="name">Vintage Backpack</h4>
+                <h3 class="oldprice">$94.99</h3>
+                <h3 class="price">$54.99</h3>
+                <div class="quantity">
+                    <label for="Select your quantity">Choose your quantity:</label> <br/>
+                    <input type="number" min="1" name="Select your quantity" placeholder="Select Quantity" required/>
+                </div>
+            </div>
+            <br/>
+            <div class="product2">
+                <img class="bag" src="https://desafree.github.io/devChallenge-checkout/checkout-page-master/photo2.png">
+                <h4 class="name">Levi's Shoes</h4>
+                <h3 class="oldprice">$124.99</h3>
+                <h3 class="price">$74.99</h3>
+                <div class="quantity">
+                    <label for="Select your quantity">Choose your quantity:</label> <br/>
+                    <input  type="number" min="1" name="Select your quantity" placeholder="Select Quantity" required/>
+                </div>
+            </div>
+            <br/>  
+            <div class="priceinfo"> 
+                <hr>
+                <h4>&emsp;&emsp;Shipping&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $19</h4>
+                <hr>
+                <h4>&emsp;&emsp;Total&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $148.98</h4>
+            </div>
+            <br/>
+        </div> 
+        <div class="contactinfo">
+            <form>
+                <h1>Contact Information</h1>
+                <label for="email">E-mail:</label><br/>
+                <input type="email" name="email" placeholder="Enter your e-mail" size="50" required/><br/>
+                <label for="Phone">Phone</label><br/>
+                <input type="tel" name="Phone" placeholder="Enter your phone number" size="50" required/>
+                <h1>Shipping address</h1>
+                <label for="name">Full name</label><br/>
+                <input type="text" name="name" placeholder="Enter your name" size="50" required/><br/>
+                <label for="address">Address</label><br/>
+                <input type="text" name="address" placeholder="Your address" size="50" required /> <br/>
+                <label for="city">City</label><br/>
+                <input name="city" type="text" placeholder="Enter your city" size="50" required /><br/>
+                <label for="country">Country</label><br/>
+                <input name="country" list="countryname" id ="country" placeholder="Enter your country" size="50" required /><br/>
+                <datalist id="countryname">
+                    <option value="Turkey">
+                    <option value="Iran">
+                    <option value="Iraq">
+                    <option value="Pakistan">
+                </datalist>    
+                <label for="postalcode">Postal Code </label><br/>
+                <input name="postalcode" placeholder="Your postal code" size="50" required /><br/>
+                <input type="checkbox">Save this information for next time<br/>
+                <button type="button">Continue</button>
+            </form>
+        </div>
+        <footer>
+  <p>&emsp;&emsp;Created by: Junaid Ahmad Mir ~ https://devchallenges.io/portfolio/mirjunaid</p>
+</footer>
+    </body>
+</html>
